@@ -1,1 +1,31 @@
-
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam (main) $ pwd
+/workspaces/cli-basics-StephanieHCTam
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam (main) $ mkdir CLIBasicsFolder
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam (main) $ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam (main) $ cd CLIBasicsFolder
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam/CLIBasicsFolder (main) $ touch myfile.txt
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam/CLIBasicsFolder (main ✗) $ ls myfile.txt
+myfile.txt
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam/CLIBasicsFolder (main ✗) $ echo Stephanie Tam ICS4Ub >> myfile.txt
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam/CLIBasicsFolder (main ✗) $ cat myfile.txt
+Stephanie Tam ICS4Ub
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam/CLIBasicsFolder (main ✗) $ cp myfile.txt myfile_copy.txt
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam/CLIBasicsFolder (main ✗) $ ls
+myfile_copy.txt  myfile.txt
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam/CLIBasicsFolder (main ✗) $ mv myfile_copy.txt myfile2.txt
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam/CLIBasicsFolder (main ✗) $ mv myfile2.txt ../
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam/CLIBasicsFolder (main ✗) $ ls ../
+CLIBasicsFolder  myfile2.txt  README.md  TerminalSession.txt
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam/CLIBasicsFolder (main ✗) $ cd /workspaces/
+@StephanieHCTam ➜ /workspaces $ ls
+cli-basics-StephanieHCTam
+@StephanieHCTam ➜ /workspaces $ cd cli-basics-StephanieHCTam/
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam (main ✗) $ ls
+CLIBasicsFolder  myfile2.txt  README.md  TerminalSession.txt
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam (main ✗) $ rm ./CLIBasicsFolder/myfile.txt 
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam (main ✗) $ ls CLIBasicsFolder
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam (main ✗) $ rmdir CLIBasicsFolder
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam (main ✗) $ ls
+myfile2.txt  README.md  TerminalSession.txt
+@StephanieHCTam ➜ /workspaces/cli-basics-StephanieHCTam (main ✗) $ 
